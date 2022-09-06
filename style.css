@@ -1,0 +1,93 @@
+div{
+    display: flex;
+    min-height: 50px;
+}
+
+div img{
+    width: 30%;
+    margin: auto;
+}
+
+.head{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 15px;
+    background-color: darkgoldenrod;
+    color: white;
+    margin: auto;
+    width: 20%;
+}
+
+.head.recipes{
+    background-color: lightgreen;
+}
+
+.desc{
+    min-height: 25px;
+}
+
+div .desc{
+    margin: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    margin: auto;
+}
+
+ol,
+ul{
+    min-height: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: large;
+    border-radius: 10px;
+    
+    margin: auto;
+}
+
+ul{
+    background-color: rgba(172, 255, 47, 0.439);
+    padding-right: 20px;
+}
+
+ul li{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+ol{
+    background-color: rgba(224, 255, 47, 0.439);
+    width: 50%;
+}
+
+ol li{
+    padding: 3px;
+}
+
+.home,
+.source{
+    min-height: 0px;
+    position: fixed;
+    bottom: 0;
+    margin: 10px;
+    padding: 8px;
+    border-radius: 10px;
+    background-color: antiquewhite;
+}
+
+.source{
+    right: 0;
+}
+
+.home{
+    left: 0;
+}
+
+.source a,
+.home a{
+    text-align: center;
+    font-family:'Courier New', Courier, monospace    
+}
